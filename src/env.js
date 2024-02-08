@@ -39,8 +39,6 @@ export const env = createEnv({
 
     // DISCORD_CLIENT_ID: z.string(),
     // DISCORD_CLIENT_SECRET: z.string(),
-    // GOOGLE_CLIENT_EMAIL: z.string(),
-    // GOOGLE_CLIENT_PASSWORD: z.string(),
     GOOGLE_CLIENT_ID: z.string(),
     GOOGLE_CLIENT_SECRET: z.string(),
     GITHUB_CLIENT_ID: z.string(),
@@ -63,7 +61,7 @@ export const env = createEnv({
    */
   client: {
     // NEXT_PUBLIC_CLIENTVAR: z.string(),
-    // NEXT_PUBLIC_STRIPE_SECRET_KEY: z.string(),
+    NEXT_PUBLIC_STRIPE_SECRET_KEY: z.string().optional(),
     // NEXT_PUBLIC_STRIPE_SUCCESS_URL: z.string(),
     // NEXT_PUBLIC_STRIPE_CANCEL_URL: z.string(),
     // NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: z.string(),
@@ -84,8 +82,6 @@ export const env = createEnv({
     // DISCORD_CLIENT_SECRET: process.env.DISCORD_CLIENT_SECRET,
     GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
-    // GOOGLE_CLIENT_EMAIL: process.env.GOOGLE_CLIENT_EMAIL,
-    // GOOGLE_CLIENT_PASSWORD: process.env.GOOGLE_CLIENT_PASSWORD,
     GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
     GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
     // FACEBOOK_CLIENT_ID: process.env.FACEBOOK_CLIENT_ID,
@@ -97,7 +93,7 @@ export const env = createEnv({
     // SENDGRID_EMAIL_FROM: process.env.SENDGRID_EMAIL_FROM,
     // SENDGRID_ORDER_CONFIRMATION_TEMPLATE_ID:
     //   process.env.SENDGRID_ORDER_CONFIRMATION_TEMPLATE_ID,
-    // NEXT_PUBLIC_STRIPE_SECRET_KEY: process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY,
+    NEXT_PUBLIC_STRIPE_SECRET_KEY: process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY,
     // NEXT_PUBLIC_STRIPE_SUCCESS_URL: process.env.NEXT_PUBLIC_STRIPE_SUCCESS_URL,
     // NEXT_PUBLIC_STRIPE_CANCEL_URL: process.env.NEXT_PUBLIC_STRIPE_CANCEL_URL,
     // NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME:
