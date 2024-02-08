@@ -96,18 +96,3 @@ Running commands with npm `npm run [command]`
 | command | description                              |
 | :------ | :--------------------------------------- |
 | `dev`   | Starts a development instance of the app |
-
-DATABASE_URL=postgresql://postgres:F*3Dg-Fd*Fgbda242GgaFEGA14CEbCaB@monorail.proxy.rlwy.net:56354/railway
-DIRECT_URL=postgresql://postgres:F*3Dg-Fd*Fgbda242GgaFEGA14CEbCaB@monorail.proxy.rlwy.net:56354/railway
-
-AUTH_SECRET=WwKNWtivoQymrqvbiJjnFUdofxYa0a+Aiwp+qvwIXg8=
-
-GITHUB_CLIENT_ID=b813c25a60364f64c27d
-GITHUB_CLIENT_SECRET=4c1aecf2f8e8350958172ba4a6f49643c6a89677
-
-GOOGLE_CLIENT_ID=975226416002-2jeno9gk6lr38louql2dbustspoet3q6.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
-
-RESEND_API_KEY=re_LuTyJEqy_KjwCSosmGv5XwvtYDmRVncwt
-
-NEXT_PUBLIC_APP_URL=http://localhost:3000
